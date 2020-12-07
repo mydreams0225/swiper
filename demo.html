@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>移动端轮播图</title>
+    <link rel="stylesheet" href="./demo.css">
+</head>
+<body>
+    <div class="swiper">
+        <ul class="img__box">
+            <li imgIndex = '0' onclick="fn1()"><img src="./img/1.jpg" alt="" ></li>
+            <li imgIndex = '1'onclick="fn2()"><img src="./img/2.jpg" alt="" ></li>
+            <li imgIndex = '2'><img src="./img/3.jpg" alt="" ></li>
+            <li imgIndex = '3'><img src="./img/4.jpg" alt="" ></li>
+            <li imgIndex = '0' onclick="fn1()"><img src="./img/1.jpg" alt="" ></li>
+            <li imgIndex = '1' onclick="fn2()"><img src="./img/2.jpg" alt="" ></li>
+            <li imgIndex = '2'><img src="./img/3.jpg" alt="" ></li>
+            <li imgIndex = '3'><img src="./img/4.jpg" alt="" ></li>
+        </ul>
+        <ul class="dot">
+            <li class="active"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    <script src="./demo.js"></script>
+    <script>
+        function fn1 (){
+            document.write('链接跳转1')
+        }
+        function fn2(){
+            document.write('链接跳转2')
+        }
+    </script>
+</body>
+</html>
